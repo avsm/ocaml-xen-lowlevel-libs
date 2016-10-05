@@ -28,7 +28,9 @@ depexts: [
   [["debian"] ["libxen-dev" "uuid-dev"]]
   [["ubuntu"] ["libxen-dev" "uuid-dev"]]
   [["centos"] ["xen-devel"]]
+  [["fedora"] ["xen-devel"]]
   [["xenserver"] ["xen-dom0-libs-devel" "xen-libs-devel"]]
+  [["alpine"] ["xen-dev"]]
 ]
 available: [ ocaml-version >= "4.00.0" ]
 
